@@ -1,0 +1,39 @@
+.category-header {
+  border-bottom: 3px solid #1d3d52;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  color: #ecf0f1;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #112a33;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.category-description {
+  font-size: 1.1rem;
+  color: #bdc3c7;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.food-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-left: 2rem;
+  padding-right: 2rem;
+}
+
+.no-items-message {
+  text-align: center;
+  color: #95a5a6;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding: 10px 0;
+}

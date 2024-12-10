@@ -1,0 +1,162 @@
+.my-orders {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #1c1c1c;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.current-order h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f1f1f1;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  border-bottom: 3px solid #7f8c8d;
+  padding-bottom: 0.5rem;
+}
+
+.current-order p {
+  font-size: 1.1rem;
+  color: #bdc3c7;
+  margin-bottom: 1rem;
+}
+
+.current-order ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.current-order li {
+  font-size: 1.1rem;
+  color: #ecf0f1;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #34495e;
+  padding-bottom: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.current-order li:hover {
+  background-color: #2c3e50;
+  cursor: pointer;
+}
+
+.past-orders {
+  margin-top: 2rem;
+}
+
+.past-orders h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f1f1f1;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  border-bottom: 3px solid #7f8c8d;
+  padding-bottom: 0.5rem;
+}
+
+.order {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: #2c3e50;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.order:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.order p {
+  font-size: 1.1rem;
+  color: #bdc3c7;
+  margin-bottom: 1rem;
+}
+
+.order ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order li {
+  font-size: 1.1rem;
+  color: #ecf0f1;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #34495e;
+  padding-bottom: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.order li:last-child {
+  border-bottom: none;
+}
+
+.order li:hover {
+  background-color: #34495e;
+  cursor: pointer;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+p {
+  font-size: 1.2rem;
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .my-orders {
+    padding: 1rem;
+  }
+
+  .current-order h3,
+  .past-orders h3 {
+    font-size: 1.6rem;
+  }
+
+  .current-order ul,
+  .order ul {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .my-orders {
+    padding: 0.8rem;
+  }
+
+  .current-order h3,
+  .past-orders h3 {
+    font-size: 1.4rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 7px 14px;
+  }
+}

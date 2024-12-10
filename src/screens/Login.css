@@ -1,0 +1,111 @@
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto; 
+    padding: 30px;
+    border: 1px solid #fff2f2;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(142, 120, 120, 0.2);
+  }
+  
+
+  .login-container h2 {
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .login-container .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .login-container .form-control {
+    background-color: #ffffff; /* White background for input fields */
+    color: #000000; /* Black text color */
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; /* Neutral border color */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .login-container .form-control::placeholder {
+    color: #6c757d; /* Subtle gray color for placeholder text */
+  }
+  
+  
+  .login-container .form-control:focus {
+    background-color: #e6f7ff; /* Slightly darker blue on focus */
+    border-color: #28a745; /* Green border on focus */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Green glow effect */
+    outline: none;
+  }
+  
+
+  .login-container .form-check-label {
+    font-size: 0.9rem;
+    color: #555;
+  }
+ 
+  .login-container .btn {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  .login-container .btn-success {
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .login-container .btn-success:hover {
+    background-color: #218838;
+    color: #fff;
+  }
+  
+  .login-container .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .login-container .btn-danger:hover {
+    background-color: #c82333;
+    color: #fff;
+  }
+  
+
+  .login-container .form-text {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  @media (max-width: 576px) {
+    .login-container {
+      margin: 20px auto;
+      padding: 20px;
+    }
+  
+    .login-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .login-container .btn {
+      font-size: 0.9rem;
+    }
+  }
+  

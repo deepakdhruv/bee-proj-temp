@@ -1,0 +1,12 @@
+
+.custom-carousel {
+  max-width: 100%; 
+  margin: auto;
+}
+
+  .custom-carousel-img {
+    max-height: 60vh; 
+    
+    object-fit: cover; 
+  }
+  

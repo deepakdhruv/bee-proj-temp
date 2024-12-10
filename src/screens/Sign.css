@@ -1,0 +1,107 @@
+.sign-form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #f8f9fa; /* Light gray for better contrast */
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+}
+
+/* Form Heading */
+.sign-form-container h2 {
+  color: #007bff; /* Modern blue for heading */
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+/* Form Labels */
+.sign-form-container .form-label {
+  font-weight: bold;
+  color: #141619; /* Darker color for visibility */
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+}
+.sign-form-container .form-control {
+  background-color: #ffffff; /* White background for input fields */
+  color: #000000; /* Black text color */
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da; /* Neutral border color */
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.sign-form-container .form-control::placeholder {
+  color: #2f3438; /* Subtle gray color for placeholder text */
+}
+
+
+/* Focus on Input Fields */
+.sign-form-container .form-control:focus {
+  border-color: #28a745; /* Green for active fields */
+  outline: none;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.3); /* Soft green glow */
+}
+
+/* Helper Text */
+.sign-form-container .form-text {
+  font-size: 0.85rem;
+  color: #141516; /* Subtle text color */
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Buttons */
+.sign-form-container .btn {
+  width: 100%;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Success Button */
+.sign-form-container .btn-success {
+  background-color: #28a745; /* Green button */
+  color: #ffffff;
+  border: none;
+}
+
+.sign-form-container .btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Danger Button */
+.sign-form-container .btn-danger {
+  background-color: #dc3545; /* Red button */
+  color: #ffffff;
+  border: none;
+}
+
+.sign-form-container .btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 576px) {
+  .sign-form-container {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .sign-form-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .sign-form-container .btn {
+    font-size: 0.9rem;
+  }
+}

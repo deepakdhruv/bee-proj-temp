@@ -1,0 +1,23 @@
+.footer {
+    background-color: #343a40; 
+    color: #f8f9fa; 
+  }
+  
+  .footer .nav-link {
+    color: #adb5bd; 
+  }
+  
+  .footer .nav-link:hover {
+    color: #ffffff; 
+  }
+  
+  .footer .text-muted {
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .footer .row {
+      text-align: center;
+    }
+  }
+  
